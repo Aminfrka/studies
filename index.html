@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <title>Survey | forms</title>
+</head>
+<body>
+  <header>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+  </header>
+  <main>
+    <form action="">
+      <div class="input-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+      </div>
+      <div class="input-field">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="Enter your Email">
+      </div>
+      <div class="input-field">
+        <label for="age">Age <span>(optional)</span></label>
+        <input type="text" id="age" placeholder="Age">
+      </div>
+      <div class="input-field">
+        <select name="role" id="role">
+          <option value="" disabled>Select current role</option>
+          <option value="">Student</option>
+          <option value="">Fulltime job</option>
+          <option value="">Fulltime learner</option>
+          <option value="">Prefer not to say</option>
+          <option value="">Other</option>
+        </select>
+      </div>
+      <div class="input-field">
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <div class="radio">
+          <input type="radio" name="rec" id="Def">
+          <label for="Def">Definitely</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="rec" id="maybe">
+          <label for="maybe">Maybe</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="rec" id="not">
+          <label for="not">Not sure</label>
+        </div>
+      </div>
+      <div class="input-field">
+        <p>What is your favorite feature of freeCodeCamp?</p>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
